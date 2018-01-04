@@ -27,3 +27,8 @@ static INTERRUPTS: [extern "C" fn(); 240] = [default_handler; 240];
 extern "C" fn default_handler() {
     asm::bkpt();
 }
+
+#[no_mangle]
+pub fn rust_begin_unwind() {
+    asm::nop();
+}
