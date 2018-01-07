@@ -19,11 +19,15 @@ lto = true
 debug = true
 
 [dependencies.cortex-m-semihosting]
-version = "0.2.0"
+version = "0.2.*"
 
 [dependencies.cortex-m-rt]
-version = "0.3.3"
+version = "0.3.*"
 features = ["abort-on-panic"]
 
 [dependencies.cortex-m]
-version = "0.3.0"
+version = "0.3.*"
+
+[dependencies.stm32f103xx]
+features = ["rt"]
+version = "0.7.*"
