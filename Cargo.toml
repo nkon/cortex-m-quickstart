@@ -18,6 +18,9 @@ version = "0.1.0"
 lto = true
 debug = true
 
+[dependencies]
+cortex-m-rtfm = "0.2.*"
+
 [dependencies.cortex-m-semihosting]
 version = "0.2.*"
 
