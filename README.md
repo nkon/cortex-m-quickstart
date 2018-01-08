@@ -23,4 +23,4 @@ dual licensed as above, without any additional terms or conditions.
 
 # My work memo
 
-[memo.md]
+[memo.md](memo.md)
